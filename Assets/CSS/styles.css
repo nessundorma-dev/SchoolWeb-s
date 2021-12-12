@@ -20,7 +20,7 @@ body {
 }
 
 .sticky-nav {
-  position: fixed;
+  /* position: fixed; */
   width: calc(100vw - 60px);
 }
 

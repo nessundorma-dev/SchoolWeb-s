@@ -7,7 +7,7 @@
 
 body {
   background-color: #2c3a34;
-  margin: 15px;
+  margin: 30px;
 }
 
 .navbar {
@@ -26,7 +26,8 @@ body {
 
 .navbar-menu {
   margin-left: auto;
-  margin-top: 15px;
+  margin-top: 10px;
+
 }
 
 .logo-div {
@@ -35,7 +36,7 @@ body {
   box-shadow: -5px -5px 10px #232e29, 5px 5px 10px #35463f;
   height: 140px;
   width: 500px;
-  margin: 12px 10px 10px 15px;
+  transition: 1s;
 }
 
 .navbar-items {
@@ -67,8 +68,7 @@ ion-icon {
   background: linear-gradient(315deg, #2f3e38, #28342f);
   box-shadow: -5px -5px 10px #232e29, 5px 5px 10px #35463f;
   height: 65vh;
-  width: calc(100vw - 70px);
-  margin: 12px 10px auto auto;
+  width: calc(100vw - 60px);
 }
 
 .title {
@@ -94,6 +94,7 @@ ion-icon {
 
 .school-logo {
   margin: 8px 0px 0px 10px;
+  transition: 1s;
 }
 
 .staffs-view {
@@ -103,5 +104,6 @@ ion-icon {
 @media screen and (max-width: 650px) {
   .logo-div {
     width: 140px;
+    transition: 1s;
   }
 }
